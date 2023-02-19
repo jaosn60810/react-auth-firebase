@@ -16,6 +16,8 @@ export default function Dashboard() {
           src={user.photoURL}
           alt="user.displayName"
           className="w-10 h-10 ml-auto rounded-full"
+          width={500}
+          height={500}
         />
         <h1 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
           Welcome to your dashboard {user.displayName}
