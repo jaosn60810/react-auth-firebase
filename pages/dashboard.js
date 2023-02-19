@@ -12,12 +12,10 @@ export default function Dashboard() {
   if (user)
     return (
       <div className="p-10 mt-32 text-gray-700 rounded-lg shadow-xl">
-        <Image
+        <img
           src={user.photoURL}
           alt="user.displayName"
           className="w-10 h-10 ml-auto rounded-full"
-          width={500}
-          height={500}
         />
         <h1 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
           Welcome to your dashboard {user.displayName}
